@@ -1,3 +1,4 @@
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -11,7 +12,6 @@ export default defineConfig({
         challenges: resolve(__dirname, 'src/challenges/index.html'),
         profile: resolve(__dirname, 'src/profile/index.html'),
         social: resolve ( __dirname, 'src/social/index.html')
-
       },
     },
   },
