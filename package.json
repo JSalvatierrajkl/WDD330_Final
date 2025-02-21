@@ -1,8 +1,8 @@
 {
-  "name": "outside",
+  "name": "sports_challenge_tracker_app",
   "version": "2.0.0",
-  "description": "Boilerplate for WDD 330 SleepOutside project",
-  "main": "main.js",
+  "description": "Sports Challenge Tracker App",
+  "main": "index.js",
   "scripts": {
     "start": "vite",
     "build": "vite build --emptyOutDir",
@@ -11,7 +11,7 @@
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest"
   },
-  "author": "Shane Thompson",
+  "author": "Joel Salvatierra",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",
@@ -32,5 +32,11 @@
     "last 3 opera versions",
     "last 3 ios_saf versions",
     "last 3 safari versions"
-  ]
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3",
+    "node-fetch": "^3.3.2"
+  }
 }

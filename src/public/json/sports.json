@@ -1,0 +1,68 @@
+{
+    "sportsUpdates": {
+      "soccerUpdates": {
+        "matches": [
+          {
+            "homeTeam": "Atlético San Luis",
+            "awayTeam": "León",
+            "status": "Finished",
+            "score": "1-1"
+          },
+          {
+            "homeTeam": "Monterrey",
+            "awayTeam": "Cruz Azul",
+            "status": "Finished",
+            "score": "2-0"
+          }
+        ]
+      },
+      "nbaUpdates": {
+        "matches": [
+          {
+            "homeTeam": "Brooklyn Nets",
+            "awayTeam": "Charlotte Hornets",
+            "status": "Finished",
+            "score": "115-110"
+          },
+          {
+            "homeTeam": "Detroit Pistons",
+            "awayTeam": "Indiana Pacers",
+            "status": "Finished",
+            "score": "98-105"
+          }
+        ]
+      },
+      "tennisUpdates": {
+        "matches": [
+          {
+            "player1": "Novak Djokovic",
+            "player2": "Carlos Alcaraz",
+            "status": "Finished",
+            "score": "6-4, 6-3"
+          },
+          {
+            "player1": "Paula Badosa",
+            "player2": "Iga Swiatek",
+            "status": "Finished",
+            "score": "7-5, 6-2"
+          }
+        ]
+      },
+      "volleyballUpdates": {
+        "matches": [
+          {
+            "homeTeam": "Skra",
+            "awayTeam": "Aluron Warta",
+            "status": "Finished",
+            "score": "3-1"
+          },
+          {
+            "homeTeam": "Dynamo-LO",
+            "awayTeam": "Enisey",
+            "status": "Finished",
+            "score": "3-0"
+          }
+        ]
+      }
+    }
+  }

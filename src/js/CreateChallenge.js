@@ -16,19 +16,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 duration: challengeDuration
             };
             
-            // Obtener los desafíos existentes del almacenamiento local
+            // Get existing challenges from local storage
             const challenges = JSON.parse(localStorage.getItem('challenges')) || [];
             
-            // Agregar el nuevo desafío a la lista
+            // Add the new challenge to the list
             challenges.push(newChallenge);
             
-            // Guardar la lista actualizada en el almacenamiento local
+            // Save the updated list to local storage
             localStorage.setItem('challenges', JSON.stringify(challenges));
             
-            // Limpiar el formulario después de crear el desafío
+            // Clear the form after creating the challenge
             createChallengeForm.reset();
             
-            // Redirigir a la página de desafíos
+            // Redirect to the challenges page
             window.location.href = '/src/challenges/index.html';
         });
     }

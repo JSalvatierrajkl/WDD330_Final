@@ -11,8 +11,17 @@ export default defineConfig({
         createChallenge: resolve(__dirname, 'src/createChallenge/index.html'),
         challenges: resolve(__dirname, 'src/challenges/index.html'),
         profile: resolve(__dirname, 'src/profile/index.html'),
-        social: resolve ( __dirname, 'src/social/index.html')
+        social: resolve(__dirname, 'src/social/index.html')
       },
     },
   },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://api.football-data.org',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
+  }
 });

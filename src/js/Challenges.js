@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const challengeList = document.getElementById('challenge-list');
     if (challengeList) {
-        // Obtener los desafíos del almacenamiento local
+        // Get challenges from local storage
         const challenges = JSON.parse(localStorage.getItem('challenges')) || [];
         
-        // Función para mostrar los desafíos en la lista
+        // Show challenges in a list
         const displayChallenges = () => {
             challengeList.innerHTML = '';
             challenges.forEach(challenge => {

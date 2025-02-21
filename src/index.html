@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Trackapp</title>
     <link rel="stylesheet" href="../css/style.css">
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/Challenges.js"></script>
+    <script type="module" src="../js/sportsUpdates.js"></script>
 </head>
 <body>
     <div id="header"></div>
     <main>
         <section id="home">
-            <h2>Welcome to the Sports Challenge Tracker App</h2>
-            <p>Track your sports challenges, compete with friends, and stay motivated!</p>
+            <div class="hero-content">
+                <h2>Welcome to the Sports Challenge Tracker App</h2>
+                <img src="public/images/hero.png" alt="hero" />
+                <p>Track your sports challenges, compete with friends<br>and stay motivated!</p>
+            </div>
         </section>
         <section id="sports-updates">
             <h2>Sports Updates</h2>
@@ -24,7 +29,8 @@
                 <h3>NBA Matches</h3>
                 <ul id="nba-matches-list"></ul>
             </div>
-            <h3>Tennis Matches</h3>
+            <div id="tennis-updates">
+                <h3>Tennis Matches</h3>
                 <ul id="tennis-matches-list"></ul>
             </div>
             <div id="volleyball-updates">
